@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuggestionSearchView">
+        <!-- root layout option -->
+        <attr name="margin" format="reference|dimension"/>
+        <attr name="radius" format="reference|dimension"/>
+
+        <!-- search view option -->
+        <attr name="searchViewBackgroundColor" format="reference|color"/>
+        <attr name="text" format="reference|string"/>
+        <attr name="textSize" format="reference|dimension"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="hint" format="reference|string"/>
+        <attr name="closeButtonIcon" format="reference"/>
+        <attr name="clearButtonIcon" format="reference"/>
+        <attr name="searchViewDivisionLineColor" format="reference|color"/>
+        <attr name="suggestionBackgroundColor" format="reference|color"/>
+    </declare-styleable>
+
+</resources>
